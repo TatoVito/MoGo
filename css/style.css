@@ -1077,6 +1077,11 @@ body{
   max-width: 100%;
   transition: all .3s linear;
 }
+
+.work__content-img img{
+   margin: auto;
+ }
+
 .work__content {
   position: absolute;
   top: 50%;
@@ -1107,6 +1112,7 @@ body{
   color: #fdefe3;
   font-size: 1.11rem;
   font-weight: 400;
+  line-height: normal;
 }
 
 .work__content-text {
@@ -1609,6 +1615,19 @@ body{
 }
 
 @media (max-width:800px){
+  .footer__column{
+    width: 50%;
+    max-width: 50rem;
+    margin: 0 auto 3rem;
+  }
+  .footer__instagram-item img{
+    display: block;
+    min-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width:580px){
   .footer__column{
     width: 100%;
     max-width: 60rem;
